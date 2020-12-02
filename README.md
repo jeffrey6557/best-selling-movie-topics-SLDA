@@ -4,7 +4,7 @@ Designed a method to help entertainment firms source profitable movie ideas; imp
 This project requires the Large Movie Review Dataset which you can download from https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz. 
 
 To run the analysis step by step:
-1. Download the dataset from above and unzip the dataset at the directory /SLDA. 
+1. Download the dataset from above and unzip the dataset at the directory '/SLDA'. 
 2. run these scripts in sequence:
  - download_sales.py to scrap movie sales data from Box Office Mojo
  - preprocess_corpus.py to label and process the movie review data
