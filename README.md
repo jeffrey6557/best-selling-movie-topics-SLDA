@@ -20,7 +20,8 @@ Now let's start with the high-level results!
 
 ### How well can the SLDA model predict box-office performance out of samples?
 
-The bar plot below shows the percentage difference of prediction efficacy metrics (MAE, MSE, R2) in various data modes (e.g. train vs validation). The positive bars of MAE and R2 in test data both indicate that SLDA outperforms LDA out of samples, while the slightly negative bar MSE is only slightly underperforming. 
+The bar plot below shows the percentage difference of prediction efficacy metrics (MAE, MSE, R2) in various data modes (e.g. train vs validation). The positive bars of MAE and R2 in test data both indicate that SLDA outperforms LDA out of samples, while the slightly negative bar MSE is only slightly underperforming: 
+
 <img width="709" alt="Screen Shot 2021-04-11 at 11 55 09 PM" src="https://user-images.githubusercontent.com/9246300/114338584-5c517380-9b21-11eb-8049-d4bf4cd65e4d.png">
 
 <img width="713" alt="Screen Shot 2021-04-12 at 12 04 26 AM" src="https://user-images.githubusercontent.com/9246300/114339212-a8e97e80-9b22-11eb-8558-2c4f2b4afb3c.png">
