@@ -15,12 +15,9 @@ There are two questions of interest here:
 1. The theoretical contribution of the supervised LDA (SLDA) is that when training a LDA model, adding label information about the documents help build topics that 'shift' towards the dimension of labels, and therefore the "weight" vector SLDA produces are more predictive of the labels. In this case, I want to see whether the topics SLDA build can predict box office performance of a movie title given its documents.
 2. Once we have built such a SLDA model, we can also look at whether the topic with the highest weights are indeed best-selling by human inspection. Of course, this would be somewhat subjective because we are the judges! Empirically, however, this is somewhat mitigated by the more refined topics selected by hyperparameter tuning that point to very specific titles that we can look up its ticket sales directly. 
 
-Now let's start with the high-level results!
-
-
 ### How well can the SLDA model predict box-office performance out of samples?
 
-The bar plot below shows the percentage difference of prediction efficacy metrics (MAE, MSE, R2) in various data modes (e.g. train vs validation). The positive bars of MAE and R2 in test data both indicate that SLDA outperforms LDA out of samples, while the slightly negative bar MSE is only slightly underperforming: 
+The bar plot below shows the percentage difference of prediction efficacy metrics (MAE, MSE, R2) in various data modes (e.g. train vs validation). The positive bars of MAE and R2 in test data both indicate that SLDA outperforms LDA out of samples, while the negative bar MSE indicates that it is underperforming. However, on the validation performance, SLDA seems to consistently outperform LDA.
 
 <img width="709" alt="Screen Shot 2021-04-11 at 11 55 09 PM" src="https://user-images.githubusercontent.com/9246300/114338584-5c517380-9b21-11eb-8049-d4bf4cd65e4d.png">
 
