@@ -35,7 +35,7 @@ The best-selling topic ['benjamin', 'pitt', 'fincher', 'brad', 'freeman', 'bride
 
 The runner-up topic ['alien', 'earth', 'robot', 'space', 'sci-fi', 'shark', 'human', 'ship', 'scienc', 'planet'] is clearly referring to the Aliens series and also the Jaws series, both of which are extremely successful, with a whopping $240 million and $470 million sales in just one of their sequels, respectively.
 
-It is also interesting to note that these are not among the single biggest hits - Avatar with a whopping 2.8 billion sales is the champion and Titatnic with a 2.2 billion is the runner-up! So there is some degree of generalization here. More on this later.
+It is also interesting to note that these are not among the single biggest hits - Avatar with a whopping 2.8 billion sales is the champion and Titatnic with a 2.2 billion is the runner-up! So the model is not picking the obvious answer and there could be some degree of generalization here. More on this later.
 
 ### Modeling discussions: the nitty-gritty 
 
